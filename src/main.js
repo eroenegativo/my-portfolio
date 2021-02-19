@@ -9,9 +9,9 @@ import Scss from './stylesheet/index.scss';
 
 /*Custom JS */
 import Theme from './theme.js';
-import Router from './router.js';
+//import Router from './router.js';
 import ScrollAnimation from './directives/scrollAnimation.js';
-Vue.use(Router);
+//Vue.use(Router);
 Vue.directive('onscroll', ScrollAnimation);
 /*Font Awesome*/
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';

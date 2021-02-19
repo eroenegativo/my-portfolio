@@ -35,8 +35,8 @@
     }
     label > span.light {
         display: inline-block;
-        width: 20px;
-        height: 20px;
+        width: 10px;
+        height: 10px;
         border:1px solid #413d41;
         background-color:#f3f3f3;
         border-radius: 100%;
@@ -136,6 +136,18 @@ a{
         .main-nav{
         right: -20%;
     } 
+    #toggle{
+        label > span.light {
+            width: 20px;
+            height: 20px;
+        }
+        label > span.dark {
+            width: 20px;
+            height: 20px;
+
+        }
+    }
+    
 }
 
 @media (min-width:1025px) { 

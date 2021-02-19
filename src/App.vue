@@ -1,7 +1,7 @@
 <template>
   <div id="app"> 
     <Main/>
-    <Navbar />
+    <!--<Navbar />-->
     <About/>
     <Carousel />
     <Projects />
@@ -11,7 +11,7 @@
 
 <script>
 import Main from './pages/Main.vue';
-import Navbar from './components/navbar.vue';
+//import Navbar from './components/navbar.vue';
 import About from './pages/About.vue';
 import Carousel from './components/carousel.vue';
 import Projects from'./pages/Workspaces.vue';
@@ -21,7 +21,7 @@ export default {
   name: 'App',
   components: {
     Main, 
-    Navbar,
+    //Navbar,
     About,
     Carousel,
     Projects ,
