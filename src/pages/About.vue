@@ -1,6 +1,6 @@
 <template>
   <section v-onscroll id="about">
-     <h2 class="section-title">About me</h2>
+     <!--<h2 class="section-title">About me</h2>-->
     <div class="column align-center">
       <div class="box">
           <div class="box-wrapper">
