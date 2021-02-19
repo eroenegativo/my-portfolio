@@ -45,8 +45,8 @@
     label > span.dark {
         display: inline;
         position: absolute;
-        width: 20px;
-        height: 20px;
+        width: 14px;
+        height: 14px;
         border:1px solid #f3f3f3;
         background-color:#413d41;
         border-radius: 100%;
@@ -141,5 +141,15 @@ a{
 @media (min-width:1025px) { 
     .main-nav{
         right: -10%;
+    }
+    #toggle{
+        label > span.light {
+            width: 20px;
+            height: 20px;
+        }
+        label > span.dark {
+            width: 20px;
+            height: 20px;
+        }
     }
 }
