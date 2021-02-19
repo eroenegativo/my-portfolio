@@ -1,0 +1,14 @@
+
+@import 'typography.scss';
+
+[data-theme='light']{
+   
+        background-color:#f3f3f3 ;
+        color:#413d41;
+        
+}
+
+[data-theme='dark']{
+        background-color: #413d41;
+        color:#f3f3f3;
+}

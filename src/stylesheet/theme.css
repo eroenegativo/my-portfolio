@@ -1,0 +1,9 @@
+[data-theme='light'] #app {
+  background-color: #f3f3f3;
+  color: #1b1b1b; }
+
+[data-theme='dark'] #app {
+  background-color: #1b1b1b;
+  color: #f3f3f3; }
+
+/*# sourceMappingURL=theme.css.map */
