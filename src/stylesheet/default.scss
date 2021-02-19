@@ -34,7 +34,7 @@
         left:0;
     }
     label > span.light {
-        display: inline;
+        display: inline-block;
         width: 14px;
         height: 14px;
         border:1px solid #413d41;
@@ -43,7 +43,7 @@
         margin-right: 2%;
     }
     label > span.dark {
-        display: inline;
+        display: inline-block;
         position: absolute;
         width: 14px;
         height: 14px;
