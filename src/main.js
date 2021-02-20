@@ -5,14 +5,12 @@ import App from './App.vue';
 import Scss from './stylesheet/index.scss';
 
 /*plugin*/
-import VueMeta from 'vue-meta';
-Vue.use(VueMeta);
+
 
 /*Custom JS */
 import Theme from './theme.js';
-//import Router from './router.js';
+import Analytics from './analytics.js';
 import ScrollAnimation from './directives/scrollAnimation.js';
-//Vue.use(Router);
 Vue.directive('onscroll', ScrollAnimation);
 /*Font Awesome*/
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
@@ -25,6 +23,7 @@ Vue.config.productionTip = false
 Vue.use(Scss);
 Vue.use(Theme);
 Vue.use(FontAwesomeIcon);
+Vue.use(Analytics);
 
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
