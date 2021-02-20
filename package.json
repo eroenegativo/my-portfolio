@@ -16,7 +16,6 @@
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-analytics": "^5.22.1",
-    "vue-owl-carousel": "^2.0.3",
     "vue-router": "^3.5.1",
     "vue-router-sitemap": "0.0.4",
     "vue-slick-carousel": "^1.0.6"

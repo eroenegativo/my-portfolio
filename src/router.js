@@ -1,14 +1,17 @@
 
 import Vue from 'vue';
-import VueRouter from 'vue-router';
+import Router from 'vue-router';
+import VueMeta from 'vue-meta';
+
+Vue.use(Router);
+Vue.use(VueMeta);
+
 import Main from './pages/Main.vue';
 import About from './pages/About.vue';
 import Carousel from './components/carousel.vue';
 import Projects from'./pages/Workspaces.vue';
 import Contacts from'./pages/Contacts.vue';
 
-
-Vue.use(VueRouter);
 
 
 const router = categoryRouting();

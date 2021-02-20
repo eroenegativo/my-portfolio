@@ -5,7 +5,8 @@ import App from './App.vue';
 import Scss from './stylesheet/index.scss';
 
 /*plugin*/
-
+import VueMeta from 'vue-meta';
+Vue.use(VueMeta);
 
 /*Custom JS */
 import Theme from './theme.js';
