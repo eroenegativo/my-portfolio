@@ -1,5 +1,5 @@
 <template>
-  <div class="row">
+  <div class="row projects">
     <ol>
       <li>
           <a href="https://liminarivista.it"  class="project-link" alt="Rivista Culturale Online"

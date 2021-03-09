@@ -78,6 +78,9 @@ h2.section-title{
     }
     h1, h2,h3{
         font-size: 100px;
+        &.section-title{
+           padding: 5% 0;
+         }
      }
      a{
         &.project-link{

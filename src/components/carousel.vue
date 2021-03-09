@@ -1,24 +1,12 @@
 <template>
-<section id="skillset" >
-  <!--<h2 class="section-title">skills</h2>-->
-<VueSlickCarousel v-bind="settings">
-    <div class="slide">
-      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone-laptop" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-phone-laptop fa-w-20 fa-5x"><path fill="currentColor" d="M604 128H420a36 36 0 0 0-36 36v312a36 36 0 0 0 36 36h184a36 36 0 0 0 36-36V164a36 36 0 0 0-36-36zm-28 320H448V192h128zM128 64h320v32h64V48a48.1 48.1 0 0 0-47.91-48H111.91A48.1 48.1 0 0 0 64 48v240H16a16 16 0 0 0-16 16v16a64.14 64.14 0 0 0 63.91 64H352v-96H128z" class=""></path></svg>
-      <h6>Responsive WebDesign</h6>
-      <p class="slide-paragraph">Responsive webpages are built to target a particular screen size and to be used on any device</p>
-    </div>
-    <div class="slide">
-      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="pencil-ruler" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-pencil-ruler fa-w-16 fa-7x"><path fill="currentColor" d="M109.46 244.04l134.58-134.56-44.12-44.12-61.68 61.68a7.919 7.919 0 0 1-11.21 0l-11.21-11.21c-3.1-3.1-3.1-8.12 0-11.21l61.68-61.68-33.64-33.65C131.47-3.1 111.39-3.1 99 9.29L9.29 99c-12.38 12.39-12.39 32.47 0 44.86l100.17 100.18zm388.47-116.8c18.76-18.76 18.75-49.17 0-67.93l-45.25-45.25c-18.76-18.76-49.18-18.76-67.95 0l-46.02 46.01 113.2 113.2 46.02-46.03zM316.08 82.71l-297 296.96L.32 487.11c-2.53 14.49 10.09 27.11 24.59 24.56l107.45-18.84L429.28 195.9 316.08 82.71zm186.63 285.43l-33.64-33.64-61.68 61.68c-3.1 3.1-8.12 3.1-11.21 0l-11.21-11.21c-3.09-3.1-3.09-8.12 0-11.21l61.68-61.68-44.14-44.14L267.93 402.5l100.21 100.2c12.39 12.39 32.47 12.39 44.86 0l89.71-89.7c12.39-12.39 12.39-32.47 0-44.86z" class=""></path></svg>
-      <h6>Prototyping</h6>
-      <p class="slide-paragraph">The process of quickly putting together a working model in order to test various aspects of a design, illustrate ideas or features and gather early user feedback. <br />Prototyping is often treated as an integral part of the system design processs</p>
-    </div>
-    <div class="slide">
-     <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="window-maximize" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-window-maximize fa-w-16 fa-7x"><path fill="currentColor" d="M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm0 394c0 3.3-2.7 6-6 6H54c-3.3 0-6-2.7-6-6V192h416v234z" class=""></path></svg>
-      <h6>SEO</h6>
-      <p class="slide-paragraph">It stands for <b>Search Engine Optimization</b>, which is the practice of increasing the quantity and quality of traffic to your website through organic search engine results.</p>
-    </div>
+<VueSlickCarousel v-bind="settings" class="slider">
+       <div class="slide">
+        <a href="https://liminarivista.it"  class="project-link" alt="Rivista Culturale Online">
+              <img src="../assets/limina-rivista.png"/>
+              <h6>(2019)Custom Wordpress Theme</h6>
+        </a>
+      </div>
 </VueSlickCarousel>
-</section>
 </template>
 
 <script>
@@ -31,36 +19,15 @@ export default {
           arrows: false,
           infinite:false,
           initialSlide: 0,
-          "responsive": [
-        {
-            "breakpoint": 1024,
-                "settings": {
-                    "slidesToShow": 3,
-                     "slidesToScroll": 1,
-                    "dots": false
-            }
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots:true,
+          customPaging : function(slider, i) {
+            var thumb = document.querySelector(slider.$slides[i]).data();
+           return '<a>'+thumb[i]+'</a>';
         },
-        {
-        "breakpoint": 600,
-            "settings": {
-                "slidesToShow": 1,
-                "slidesToScroll": 1,
-                "dots": true
-            }
-        },
-        {
-        "breakpoint": 480,
-            "settings": {
-                    "slidesToShow": 1,
-                    "slidesToScroll": 1,
-                    "dots": true
-            }
-        }
-    ]
-        },
-        
-      }
-    },
-  }
- 
+      },
+    }
+  },
+}
 </script>

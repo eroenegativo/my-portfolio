@@ -26,7 +26,7 @@
     position:relative;
     @extend .text-center;
     @extend .items-center;
-
+    
     input[type=checkbox]{
         content: "";
         visibility: hidden;
@@ -63,7 +63,7 @@ ul {
     margin:0;
   }  
 
-/*navbar*/
+/*navbar
 .main-nav{
     position:fixed;
     transform: rotate(-90deg);
@@ -83,6 +83,7 @@ ul {
         }
     }
 }
+*/
 /*About Me*/
 .box{
     margin:0 auto;
