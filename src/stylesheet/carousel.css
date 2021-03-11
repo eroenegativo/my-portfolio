@@ -59,7 +59,7 @@
   left: 30%;
   mix-blend-mode: exclusion;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media (min-width: 1025px) {

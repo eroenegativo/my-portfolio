@@ -36,7 +36,7 @@
               degree at <b itemprop="alumniOf">IED (European Disgn Institute)</b>.
             </p>
           </div>
-          <div class="box-button">
+        <!--  <div class="box-button">
             <ul>
               <li>
                 <a
@@ -59,7 +59,7 @@
                 </a>
               </li>
             </ul>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
