@@ -33,8 +33,7 @@
           <div class="box-description">
             <p>
               My background is focused on design and art,<br /> i have a Bachelor's
-              degree at <b itemprop="alumniOf">IED (European Di
-                esign Institute)</b>.
+              degree at <b itemprop="alumniOf">IED (European Design Institute)</b>.
             </p>
           </div>
         <!--  <div class="box-button">
