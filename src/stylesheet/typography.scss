@@ -13,14 +13,6 @@ h1, h2, h3{
     line-height: 100px;
     text-align: center;
     font-weight: 400;
-    span{
-        &:first-child{
-            float:left;
-        }
-        &:last-child{
-            float:right;
-        }
-    }
 }
 h2.section-title{
     text-align: left;
@@ -102,5 +94,14 @@ h2.section-title{
  @media (min-width:1025px) {
     h1, h2,h3{
         font-size: 120px;
+        span{
+            &:first-child{
+                float:left;
+            }
+            &:last-child{
+                float:right;
+            }
+        }
      }
+     
  }
