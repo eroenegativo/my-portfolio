@@ -24,15 +24,15 @@
 /*Toggle Switch Dark light mode*/
 #toggle{
     position:relative;
-    @extend .text-center;
-    @extend .items-center;
+   // @extend .text-center;
+   // @extend .items-center;
     
     input[type=checkbox]{
         content: "";
         visibility: hidden;
     }
     label{
-        //position:absolute;
+        position:absolute;
         top:0;
         left:0;
     }
@@ -147,6 +147,7 @@ a{
         right: -10%;
     }
     #toggle{
+        
         label > span.light {
             width: 20px;
             height: 20px;
