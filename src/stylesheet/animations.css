@@ -4,7 +4,8 @@
   height: auto;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -22,44 +23,67 @@
 
 @keyframes zoom {
   from {
-    transform: scale(0);
+    -webkit-transform: scale(0);
+            transform: scale(0);
   }
   to {
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
 .before-enter {
   opacity: 0;
-  transform: translateY(100px);
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  -webkit-transition: all 2s ease-out;
   transition: all 2s ease-out;
 }
 
 .enter {
   opacity: 1;
-  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
 }
 
 .fa-arrow-left.fa-w-14 {
-  animation: scroll .35s ease-in alternate infinite;
+  -webkit-animation: scroll .35s ease-in alternate infinite;
+          animation: scroll .35s ease-in alternate infinite;
 }
 
 .fa-arrow-left.fa-w-14:before {
-  transform: rotate(45deg) translateX(-23%);
-  transform-origin: top left;
+  -webkit-transform: rotate(45deg) translateX(-23%);
+          transform: rotate(45deg) translateX(-23%);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
 }
 
 .fa-arrow-left.fa-w-14:after {
-  transform: rotate(-45deg) translateX(23%);
-  transform-origin: top right;
+  -webkit-transform: rotate(-45deg) translateX(23%);
+          transform: rotate(-45deg) translateX(23%);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
 }
 
 @keyframes scroll {
   0% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   100% {
-    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
   }
 }
 
@@ -69,3 +93,4 @@
     width: 100%;
   }
 }
+/*# sourceMappingURL=animations.css.map */
