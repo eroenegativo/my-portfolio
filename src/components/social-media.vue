@@ -3,27 +3,22 @@
         <ul>
           <li>
               <a href="https://www.linkedin.com/in/ilariaolimpia-posca/" target="_blank" alt="LinkedIn" class="social-link">
-                  <span>Linkedin</span>                  
+                  Linkedin             
               </a>
           </li>
           <li>
               <a href="https://www.facebook.com/ilarjaolympia.poska/" target="_blank" alt="Facebook" class="social-link">
-                  <span>Facebook</span>                  
+                  Facebook            
               </a>
           </li>
           <li>
               <a href="https://www.instagram.com/eroenegativo/" target="_blank" alt="Instagram" class="social-link">
-                  <span>Instagram</span>                  
+                  Instagram                
               </a>
           </li>
           <li>
               <a href="https://www.flickr.com/photos/93959529@N05/" target="_blank" alt="Flickr" class="social-link">
                   <span>Flickr</span>                  
-              </a>
-          </li>
-          <li>
-              <a href="https://codepen.io/eroenegativo" target="_blank" alt="Codepen" class="social-link">
-                  <span>Codepen</span>                  
               </a>
           </li>
             <li>

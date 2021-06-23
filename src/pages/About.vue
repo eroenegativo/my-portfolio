@@ -5,6 +5,7 @@
       <div class="box">
         <div class="box-wrapper">
           <div class="box-description">
+             <h2 class="section-title">who<br/> <i>am i?</i></h2>
             <p>
               Hello world, <br />
               i'm <span itemprop="name">Ilaria Olimpia Posca</span> a technology enthusiast <b itemprop="jobTitle">Front-end Developer</b> working mainly

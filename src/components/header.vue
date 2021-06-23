@@ -8,7 +8,9 @@
                  <h4>Avaible for exciting projects</h4>
             </div>
             <div>
-                 <a rel="outline-inward" href="mailto:ilaria.posca@gmail.com" target="_blank">EMail Me </a>
+                 <a rel="outline-inward" href="mailto:ilaria.posca@gmail.com" target="_blank">
+                     <span>EMail Me</span>
+               </a>
             </div>
          </div>
      </header>
