@@ -1,5 +1,6 @@
 {
-  "name": "website",
+  "name": "www.ilariaolimpiaposca.com",
+  "author": "Ilaria Olimpia Posca",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,7 +20,6 @@
     "vue": "^2.6.12",
     "vue-analytics": "^5.22.1",
     "vue-router": "^3.5.1",
-    "vue-router-sitemap": "0.0.4",
     "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
@@ -31,7 +31,6 @@
     "eslint-plugin-vue": "^6.2.2",
     "font-awesome": "^4.7.0",
     "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.2",
     "vue-cli-plugin-fontawesome": "~0.2.0",
     "vue-template-compiler": "^2.6.14"
   },
