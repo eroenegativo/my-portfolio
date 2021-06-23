@@ -66,8 +66,14 @@ a.social-link {
 }
 
 h2.section-title {
-  font-size: 45px;
-  line-height: 45px;
+  font-size: 70px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+h2.section-title i {
+  font-weight: 100;
+  padding: 0 20%;
 }
 
 @media (min-width: 641px) {
@@ -79,7 +85,6 @@ h2.section-title {
   }
   h1.section-title, h2.section-title, h3.section-title {
     padding: 5% 0;
-    font-weight: 900;
   }
   a.project-link {
     font-size: 30px;
@@ -96,6 +101,20 @@ h2.section-title {
   text-align: left;
 }
 
+p.description {
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+p.description.light {
+  color: lightgrey;
+}
+
+p.description.dark {
+  color: inherit;
+}
+
 @media (min-width: 1025px) {
   h1, h2, h3 {
     font-size: 120px;
@@ -105,6 +124,13 @@ h2.section-title {
   }
   h1 span:last-child, h2 span:last-child, h3 span:last-child {
     float: right;
+  }
+  h2.section-title {
+    font-size: 100px;
+    font-weight: 900;
+  }
+  h2.section-title i {
+    font-weight: 100;
   }
 }
 
@@ -185,11 +211,13 @@ h2.section-title {
 }
 
 #app {
-  position: relative;
-  margin: 0 auto;
   padding: 0 2%;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+}
+
+#about, #work {
+  padding: 5% 5%;
 }
 
 /*Toggle Switch Dark light mode*/
@@ -233,10 +261,21 @@ ul {
   margin: 0;
 }
 
+a.nav-link {
+  display: block;
+  color: inherit;
+}
+
+a.nav-link.right {
+  float: right;
+  width: 100%;
+  text-align: right;
+}
+
 .main-nav {
   position: absolute;
   top: 50%;
-  left: -10%;
+  left: 0%;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
@@ -247,11 +286,6 @@ ul {
 
 .main-nav ul li {
   margin: 0 10px;
-}
-
-.main-nav ul li a.nav-link {
-  display: block;
-  color: inherit;
 }
 
 nav.social-media-nav ul {
@@ -313,8 +347,11 @@ nav.social-media-nav ul li a:hover {
 
 a.right {
   float: right;
-  position: relative;
-  width: 150px;
+}
+
+hr {
+  width: auto;
+  float: right;
 }
 
 .mobile-only {
@@ -431,43 +468,6 @@ a.right {
   100% {
     -webkit-transform: translateX(10px);
             transform: translateX(10px);
-  }
-}
-
-svg.hover-link {
-  position: absolute;
-  top: 0%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-
-a path {
-  stroke-width: 15px;
-  stroke-dasharray: 0 1500;
-}
-
-a:hover path {
-  -webkit-animation: draw 1s forwards;
-          animation: draw 1s forwards;
-}
-
-@-webkit-keyframes draw {
-  from {
-    stroke-dasharray: 0 1500;
-  }
-  to {
-    stroke-dasharray: 1500 1500;
-  }
-}
-
-@keyframes draw {
-  from {
-    stroke-dasharray: 0 1500;
-  }
-  to {
-    stroke-dasharray: 1500 1500;
   }
 }
 

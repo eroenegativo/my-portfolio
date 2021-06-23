@@ -1,68 +1,27 @@
 <template>
   <section v-onscroll id="about" itemscope itemtype="https://schema.org/Person">
-    <!--<h2 class="section-title">About me</h2>-->
-    <div class="column align-center">
-      <div class="box">
-        <div class="box-wrapper">
-          <div class="box-description">
-             <h2 class="section-title">who<br/> <i>am i?</i></h2>
-            <p>
-              Hello world, <br />
-              i'm <span itemprop="name">Ilaria Olimpia Posca</span> a technology enthusiast <b itemprop="jobTitle">Front-end Developer</b> working mainly
-              as a <span itemprop="worksFor">consultant developer</span> in my hometown, <span itemprop="birthPlace">Milan</span>.<br />
-            </p>
-          </div>
-          <div class="box-button">
-            <ul>
-              <li>
-                <a
-                  href="../assets/Ilaria_Olimpia_Posca_Resume_202001.pdf"
-                  target="_blank"
-                  alt="Currriculum Viate"
-                  download
-                >
-                  <span>Download my CV</span>
-                  <font-awesome-icon :icon="['fa', 'download']" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="box">
-        <div class="box-wrapper">
-          <div class="box-description">
-            <p>
-              My background is focused on design and art,<br /> i have a Bachelor's
-              degree at <b itemprop="alumniOf">IED (European Design Institute)</b>.
-            </p>
-          </div>
-        <!--  <div class="box-button">
-            <ul>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/ilariaolimpia-posca/"
-                  target="_blank"
-                  alt="Linkedin"
-                >
-                  <span>Linkedin</span>
-                  <font-awesome-icon :icon="['fa', 'external-link-alt']" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/eroenegativo/"
-                  target="_blank"
-                  alt="Instagram"
-                >
-                  <span>Instagram </span>
-                  <font-awesome-icon :icon="['fa', 'external-link-alt']" />
-                </a>
-              </li>
-            </ul>
-          </div>-->
-        </div>
-      </div>
-    </div>
+             <h2 class="section-title">who<hr/><br/> <i>am i?</i></h2>
+       <div class="column">
+           <p class="description light">
+           My name is Ilaria Olimpia  class 1986, born in Milan. My background mainly focus on <i>design</i> and <i>visual arts</i>.
+           I attended <strong>IED</strong> (<i>Istituto Europeo di Design</i>) where i graduated
+           in Visual Art  with 98/100 back in <i>2009</i>.
+         </p>
+          <p class="description dark">
+           My enthusiasm in Web development dates back in 2004 when the WWW still used tables. Nowdays i work as a consultant FE Developer.
+         </p>
+         <a href="../assets/Ilaria_Olimpia_Posca_Resume_202106.pdf" target="" align="center" alt="cv download" download >
+           <img src="../assets/resume-icon.png" alt="icon-cv"><br/>
+          <span>Download my CV</span>
+         </a>
+       </div>
+      <router-link   to="/" class="nav-link">
+                <font-awesome-icon :icon="['fa', 'arrow-left']"/><span>bring me back Home</span>
+                <svg id="stroke" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+  <defs>
+    <path id="line" d="M2 2c49.7 2.6 100 3.1 150 1.7-46.5 2-93 4.4-139.2 7.3 45.2-1.5 90.6-1.8 135.8-.6" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+  </defs>
+</svg>
+      </router-link>
   </section>
 </template>

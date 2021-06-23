@@ -58,33 +58,10 @@ $ani-delay: 1s;
 	
 }
 
-svg.hover-link {
-	position: absolute;
-	top:0%;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	pointer-events: none;
-  }
-  
-  a path {
-	stroke-width: 15px;
-	stroke-dasharray: 0 1500;
-  }
-  
-  a:hover path {
-	animation: draw 1s forwards;
-  }
-  
-  @keyframes draw {
-	from {
-	  stroke-dasharray: 0 1500;
-	}
-  
-	to {
-	  stroke-dasharray: 1500 1500;
-	}
-  }
+
+
+ 
+
 
   /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 700px){

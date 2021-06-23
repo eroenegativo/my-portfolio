@@ -1,29 +1,30 @@
 <template>
   <div id="app"> 
-    <Main/>
-    <Navbar />
+    <Header/>
+    <div class="main-nav">
+            <router-link to="/about" class="nav-link">
+                <span>Who am i?</span>
+                <svg id="stroke" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+  <defs>
+    <path id="line" d="M2 2c49.7 2.6 100 3.1 150 1.7-46.5 2-93 4.4-139.2 7.3 45.2-1.5 90.6-1.8 135.8-.6" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+  </defs>
+</svg>
+            </router-link>
+    </div>
     <router-view/>
-    <!--<About/>-->
-    <!--<Projects />-->
     <Contacts />
   </div>
 </template>
 
 <script>
-import Main from './pages/Main.vue';
-import Navbar from './components/navbar.vue';
-//import About from './pages/About.vue';
-//import Projects from'./pages/Workspaces.vue';
+import Header from './components/header.vue';
 import Contacts from'./pages/Contacts.vue';
 
 export default {
   name: 'App',
   components: {
-    Main, 
-    Navbar,
-    //About,
-    //Projects ,
-    Contacts
+    Contacts,
+    Header
   }
 };
 </script>

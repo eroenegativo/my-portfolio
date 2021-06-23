@@ -1,6 +1,11 @@
 <template>
   <footer  id="contacts">
-        <SocialMedia />
+    <div class="row left" >
+           <router-link  to="/portfolio" class="nav-link right">
+            <span>go to portfolio</span>
+           </router-link>
+    </div>
+    <SocialMedia />
   </footer>
 </template>
 

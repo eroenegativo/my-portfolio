@@ -11,6 +11,7 @@ import Scss from './stylesheet/index.scss';
 import Theme from './theme.js';
 import Analytics from './analytics.js';
 import ScrollAnimation from './directives/scrollAnimation.js';
+import router from './router'
 Vue.directive('onscroll', ScrollAnimation);
 /*Font Awesome*/
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
@@ -25,10 +26,15 @@ Vue.use(Theme);
 Vue.use(FontAwesomeIcon);
 Vue.use(Analytics);
 
+Vue.use(router);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 new Vue({
+  router,
   render: h => h(App),
 }).$mount('#app')
+
+
+
 

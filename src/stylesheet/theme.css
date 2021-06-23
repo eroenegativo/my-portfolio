@@ -66,8 +66,14 @@ a.social-link {
 }
 
 h2.section-title {
-  font-size: 45px;
-  line-height: 45px;
+  font-size: 70px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+h2.section-title i {
+  font-weight: 100;
+  padding: 0 20%;
 }
 
 @media (min-width: 641px) {
@@ -79,7 +85,6 @@ h2.section-title {
   }
   h1.section-title, h2.section-title, h3.section-title {
     padding: 5% 0;
-    font-weight: 900;
   }
   a.project-link {
     font-size: 30px;
@@ -96,6 +101,20 @@ h2.section-title {
   text-align: left;
 }
 
+p.description {
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+p.description.light {
+  color: lightgrey;
+}
+
+p.description.dark {
+  color: inherit;
+}
+
 @media (min-width: 1025px) {
   h1, h2, h3 {
     font-size: 120px;
@@ -105,6 +124,13 @@ h2.section-title {
   }
   h1 span:last-child, h2 span:last-child, h3 span:last-child {
     float: right;
+  }
+  h2.section-title {
+    font-size: 100px;
+    font-weight: 900;
+  }
+  h2.section-title i {
+    font-weight: 100;
   }
 }
 
