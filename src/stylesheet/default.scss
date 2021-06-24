@@ -83,6 +83,7 @@ ul {
     top: 50%;
     left: 0%;
     transform: rotate(-90deg);
+    z-index: 100;
     ul{
        list-style-type: none;
         li{
