@@ -102,13 +102,15 @@ h2.section-title{
          margin:0;
          &.light{
              color:lightgrey;
+             text-align:center;
          }
          &.dark{
             color:inherit;
+            text-align: center;
         }
      }
  }
- @media (min-width:1025px) {
+ @media (min-width:1024px) {
     h1, h2,h3{
         font-size: 120px;
         span{
@@ -131,6 +133,12 @@ h2.section-title{
      p{
         &.description{
             font-size: 40px;
+            &.light{
+                text-align: left;
+            }
+            &.dark{
+                text-align: left;
+            }
            
         }
     }

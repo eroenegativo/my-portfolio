@@ -66,14 +66,13 @@ a.social-link {
 }
 
 h2.section-title {
-  font-size: 70px;
+  font-size: 50px;
   line-height: 1;
   font-weight: 900;
 }
 
 h2.section-title i {
   font-weight: 100;
-  padding: 0 20%;
 }
 
 @media (min-width: 641px) {
@@ -102,20 +101,37 @@ h2.section-title i {
 }
 
 p.description {
-  font-size: 40px;
+  font-size: 30px;
   padding: 0;
   margin: 0;
 }
 
 p.description.light {
   color: lightgrey;
+  text-align: center;
 }
 
 p.description.dark {
   color: inherit;
 }
 
-@media (min-width: 1025px) {
+p.description.dark p.description {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+p.description.dark p.description.light {
+  color: lightgrey;
+  text-align: center;
+}
+
+p.description.dark p.description.dark {
+  color: inherit;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
   h1, h2, h3 {
     font-size: 120px;
   }
@@ -131,6 +147,16 @@ p.description.dark {
   }
   h2.section-title i {
     font-weight: 100;
+    padding: 0;
+  }
+  p.description {
+    font-size: 40px;
+  }
+  p.description.light {
+    text-align: left;
+  }
+  p.description.dark {
+    text-align: left;
   }
 }
 

@@ -108,13 +108,15 @@ p.description {
 
 p.description.light {
   color: lightgrey;
+  text-align: center;
 }
 
 p.description.dark {
   color: inherit;
+  text-align: center;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   h1, h2, h3 {
     font-size: 120px;
   }
@@ -134,6 +136,12 @@ p.description.dark {
   }
   p.description {
     font-size: 40px;
+  }
+  p.description.light {
+    text-align: left;
+  }
+  p.description.dark {
+    text-align: left;
   }
 }
 /*# sourceMappingURL=typography.css.map */
