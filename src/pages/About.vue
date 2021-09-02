@@ -11,8 +11,8 @@
          </a>
          </p>
           <p class="description dark">
-           In my freetime you can mostly find me either <a href="https://www.komoot.com/user/1295852012223" target="_blank"  alt="Hit me on Komoot">hiking or riding</a> my Bianchi bike. 
-           Appreciating life drinking a glass wine and  <a href="https://www.goodreads.com/user/show/14753895-ilarja" target="_blank"  alt="watch my library">reading a book</a> or even better listening to some amazing <a href="https://www.discogs.com/user/eroenegativo/collection" target="_blank"  alt="sneak peak to my vinyl collection">records</a>.
+           In my freetime you can mostly find me either <a href="https://www.komoot.com/user/1295852012223" target="_blank" class="description"  alt="Hit me on Komoot">hiking or riding</a> my Bianchi bike. 
+           Appreciating life drinking a glass wine and  <a href="https://www.goodreads.com/user/show/14753895-ilarja" target="_blank" class="description" alt="watch my library">reading a book</a> or even better listening to some amazing <a href="https://www.discogs.com/user/eroenegativo/collection" target="_blank"  alt="sneak peak to my vinyl collection">records</a>.
          </p> 
        </div>
       <router-link   to="/" class="nav-link">
