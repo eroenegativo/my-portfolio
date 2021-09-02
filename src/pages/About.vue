@@ -5,15 +5,15 @@
            <p class="description light">
            My name is Ilaria Olimpia  class 1986, born in Milan. My background mainly focus on <i>design</i> and <i>visual arts</i>.
            I attended <strong>IED</strong> (<i>Istituto Europeo di Design</i>) where i graduated
-           in Visual Art  with 98/100 back in <i>2009</i>.
-         </p>
-          <p class="description dark">
-           My enthusiasm in Web development dates back in 2004 when the WWW still used tables. Nowdays i work as a consultant FE Developer.
-         </p>
-         <a href="../assets/Ilaria_Olimpia_Posca_Resume_202106.pdf" target="" align="center" alt="cv download" download >
-           <img src="../assets/resume-icon.png" alt="icon-cv"><br/>
+           in Visual Art  with 98/100 back in <i>2009</i>.My enthusiasm in Web development dates back in 2004 when the WWW still used tables. Nowdays i work as a consultant FE Developer.
+            <a href="../assets/Ilaria_Olimpia_Posca_Resume_202106.pdf" target="" alt="cv download" download >
           <span>Download my CV</span>
          </a>
+         </p>
+          <p class="description dark">
+           In my freetime you can mostly find me either <a href="https://www.komoot.com/user/1295852012223" target="_blank"  alt="Hit me on Komoot">hiking or riding</a> my Bianchi bike. 
+           Appreciating life drinking a glass wine and  <a href="https://www.goodreads.com/user/show/14753895-ilarja" target="_blank"  alt="watch my library">reading a book</a> or even better listening to some amazing <a href="https://www.discogs.com/user/eroenegativo/collection" target="_blank"  alt="sneak peak to my vinyl collection">records</a>.
+         </p> 
        </div>
       <router-link   to="/" class="nav-link">
                 <font-awesome-icon :icon="['fa', 'arrow-left']"/><span>bring me back Home</span>
