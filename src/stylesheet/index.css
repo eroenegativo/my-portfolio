@@ -154,7 +154,7 @@ p.description.dark p.description.dark {
     padding: 0;
   }
   p.description {
-    font-size: 40px;
+      font-size: 25px;
   }
   p.description.light {
     text-align: left;
