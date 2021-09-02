@@ -51,6 +51,7 @@ a {
   text-decoration: none;
 }
 a.description {
+    display: inline-block
   font-weight: 400;
   color: inherit;
   text-decoration: none;
