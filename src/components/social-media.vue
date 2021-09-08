@@ -16,11 +16,17 @@
                   Instagram                
               </a>
           </li>
+             <li>
+              <a href="https://ilaria-posca.medium.com/" target="_blank" alt="Medium" class="social-link">
+                  <span>Medium</span>                  
+              </a>
+          </li>
           <li>
               <a href="https://www.flickr.com/photos/93959529@N05/" target="_blank" alt="Flickr" class="social-link">
                   <span>Flickr</span>                  
               </a>
           </li>
+          
             <li>
               <a href="https://github.com/eroenegativo" target="_blank" alt="Github" class="social-link">
                   <span>Github</span>                  
